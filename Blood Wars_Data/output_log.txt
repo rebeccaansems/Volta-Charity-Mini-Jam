@@ -2,10 +2,10 @@ Mono path[0] = 'C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/
 Mono path[1] = 'C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/Mono'
 Mono config path = 'C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55200
-Broadcasting "[IP] 169.254.177.195 [Port] 55200 [Flags] 2 [Guid] 410444302 [EditorId] 3267123797 [Version] 1048832 [Id] WindowsPlayer(Rebecca-Laptop) [Debug] 0" to [169.254.255.255:54997]...
-Started listening to [0.0.0.0:55200]
-PlayerConnection already initialized - listening to [0.0.0.0:55200]
+PlayerConnection initialized network socket : 0.0.0.0 55383
+Broadcasting "[IP] 169.254.177.195 [Port] 55383 [Flags] 2 [Guid] 3375536903 [EditorId] 3267123797 [Version] 1048832 [Id] WindowsPlayer(Rebecca-Laptop) [Debug] 0" to [169.254.255.255:54997]...
+Started listening to [0.0.0.0:55383]
+PlayerConnection already initialized - listening to [0.0.0.0:55383]
 Player data archive not found at `C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.1f1 (2860b30f0b54)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -23,64 +23,48 @@ Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini J
 Loading C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.127 seconds
+- Completed reload, in  0.280 seconds
 Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 4.312024 ms
+UnloadTime: 4.392422 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.572449 ms
+UnloadTime: 10.798663 ms
 System memory in use before: 17.1 MB.
 System memory in use after: 17.1 MB.
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 341.
-Total: 0.628649 ms (FindLiveObjects: 0.071845 ms CreateObjectMapping: 0.058160 ms MarkObjects: 0.487524 ms  DeleteObjects: 0.006842 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 0.375906 ms (FindLiveObjects: 0.031646 ms CreateObjectMapping: 0.024376 ms MarkObjects: 0.312186 ms  DeleteObjects: 0.005559 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.133560 ms
+UnloadTime: 2.943107 ms
 System memory in use before: 17.1 MB.
 System memory in use after: 17.1 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 341.
-Total: 0.764215 ms (FindLiveObjects: 0.082537 ms CreateObjectMapping: 0.060299 ms MarkObjects: 0.599569 ms  DeleteObjects: 0.016250 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 0.904485 ms (FindLiveObjects: 0.101781 ms CreateObjectMapping: 0.068424 ms MarkObjects: 0.722305 ms  DeleteObjects: 0.009836 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.276823 ms
+UnloadTime: 2.974325 ms
 System memory in use before: 17.1 MB.
 System memory in use after: 17.1 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 341.
-Total: 0.562791 ms (FindLiveObjects: 0.049607 ms CreateObjectMapping: 0.026086 ms MarkObjects: 0.475550 ms  DeleteObjects: 0.008553 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 0.528578 ms (FindLiveObjects: 0.046614 ms CreateObjectMapping: 0.038916 ms MarkObjects: 0.426797 ms  DeleteObjects: 0.013257 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.747389 ms
+UnloadTime: 1.868843 ms
 System memory in use before: 17.1 MB.
 System memory in use after: 17.1 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 341.
-Total: 0.566212 ms (FindLiveObjects: 0.075266 ms CreateObjectMapping: 0.029080 ms MarkObjects: 0.451173 ms  DeleteObjects: 0.006842 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.480386 ms
-System memory in use before: 17.1 MB.
-System memory in use after: 17.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 341.
-Total: 0.656019 ms (FindLiveObjects: 0.040199 ms CreateObjectMapping: 0.041482 ms MarkObjects: 0.561080 ms  DeleteObjects: 0.008980 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.869270 ms
-System memory in use before: 17.1 MB.
-System memory in use after: 17.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 341.
-Total: 0.499926 ms (FindLiveObjects: 0.053028 ms CreateObjectMapping: 0.023948 ms MarkObjects: 0.408836 ms  DeleteObjects: 0.011546 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 0.573054 ms (FindLiveObjects: 0.069707 ms CreateObjectMapping: 0.021810 ms MarkObjects: 0.468707 ms  DeleteObjects: 0.008125 ms)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 2e14 -> priority: 1 
-  Thread -> id: 1544 -> priority: 1 
-  Thread -> id: 31f0 -> priority: 1 
-  Thread -> id: 37f4 -> priority: 1 
+  Thread -> id: 36cc -> priority: 1 
+  Thread -> id: 2d78 -> priority: 1 
+  Thread -> id: 34b8 -> priority: 1 
+  Thread -> id: 25e8 -> priority: 1 

@@ -9,6 +9,7 @@ public class GameStats : MonoBehaviour
     public static int curedCells = 0;
     public static int virusCells = 0;
     public static float overallTimeRemaining = 32f;
+    public static bool singlePlayerMode = false;
 
     public CanvasGroup EndGamePanel, TutorialPanel, InGamePanel;
     public Text timeRemainingText, cureScore, virusScore;
@@ -59,8 +60,11 @@ public class GameStats : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void PlayGame()
+    public void PlayGame(bool singlePlayer)
     {
+        singlePlayerMode = singlePlayer;
+        Debug.Log(singlePlayerMode);
+
         TutorialPanel.interactable = false;
         TutorialPanel.alpha = 0;
         TutorialPanel.blocksRaycasts = false;
