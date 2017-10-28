@@ -2,10 +2,10 @@ Mono path[0] = 'C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/
 Mono path[1] = 'C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/Mono'
 Mono config path = 'C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55383
-Broadcasting "[IP] 169.254.177.195 [Port] 55383 [Flags] 2 [Guid] 3375536903 [EditorId] 3267123797 [Version] 1048832 [Id] WindowsPlayer(Rebecca-Laptop) [Debug] 0" to [169.254.255.255:54997]...
-Started listening to [0.0.0.0:55383]
-PlayerConnection already initialized - listening to [0.0.0.0:55383]
+PlayerConnection initialized network socket : 0.0.0.0 55140
+Broadcasting "[IP] 169.254.177.195 [Port] 55140 [Flags] 2 [Guid] 2992027011 [EditorId] 3267123797 [Version] 1048832 [Id] WindowsPlayer(Rebecca-Laptop) [Debug] 0" to [169.254.255.255:54997]...
+Started listening to [0.0.0.0:55140]
+PlayerConnection already initialized - listening to [0.0.0.0:55140]
 Player data archive not found at `C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.1f1 (2860b30f0b54)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -23,48 +23,16 @@ Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini J
 Loading C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.280 seconds
+- Completed reload, in  0.105 seconds
 Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 4.392422 ms
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.798663 ms
-System memory in use before: 17.1 MB.
-System memory in use after: 17.1 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 342.
-Total: 0.375906 ms (FindLiveObjects: 0.031646 ms CreateObjectMapping: 0.024376 ms MarkObjects: 0.312186 ms  DeleteObjects: 0.005559 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.943107 ms
-System memory in use before: 17.1 MB.
-System memory in use after: 17.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 342.
-Total: 0.904485 ms (FindLiveObjects: 0.101781 ms CreateObjectMapping: 0.068424 ms MarkObjects: 0.722305 ms  DeleteObjects: 0.009836 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.974325 ms
-System memory in use before: 17.1 MB.
-System memory in use after: 17.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 342.
-Total: 0.528578 ms (FindLiveObjects: 0.046614 ms CreateObjectMapping: 0.038916 ms MarkObjects: 0.426797 ms  DeleteObjects: 0.013257 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.868843 ms
-System memory in use before: 17.1 MB.
-System memory in use after: 17.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 342.
-Total: 0.573054 ms (FindLiveObjects: 0.069707 ms CreateObjectMapping: 0.021810 ms MarkObjects: 0.468707 ms  DeleteObjects: 0.008125 ms)
-
+UnloadTime: 1.989868 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 36cc -> priority: 1 
-  Thread -> id: 2d78 -> priority: 1 
-  Thread -> id: 34b8 -> priority: 1 
-  Thread -> id: 25e8 -> priority: 1 
+  Thread -> id: 2398 -> priority: 1 
+  Thread -> id: 2ebc -> priority: 1 
+  Thread -> id: 16c4 -> priority: 1 
+  Thread -> id: 2eec -> priority: 1 

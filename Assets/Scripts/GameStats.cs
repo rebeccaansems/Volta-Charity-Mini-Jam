@@ -63,7 +63,6 @@ public class GameStats : MonoBehaviour
     public void PlayGame(bool singlePlayer)
     {
         singlePlayerMode = singlePlayer;
-        Debug.Log(singlePlayerMode);
 
         TutorialPanel.interactable = false;
         TutorialPanel.alpha = 0;

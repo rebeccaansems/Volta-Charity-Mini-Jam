@@ -6,7 +6,7 @@ public class VirusAI : MonoBehaviour
 {
     private float speed;
     private float moveHorizontal, moveVertical;
-    private float time;
+    private float time = 5;
 
     void Start()
     {
@@ -17,6 +17,11 @@ public class VirusAI : MonoBehaviour
     {
         if (GameStats.singlePlayerMode)
         {
+            if (this.transform.position.y > 0)
+            {
+                this.transform.position = new Vector2(this.transform.position.x, -2.1f);
+            }
+
             if (GameStats.singlePlayerMode && this.GetComponent<PlayerMovement>() != null)
             {
                 Destroy(this.GetComponent<PlayerMovement>());

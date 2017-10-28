@@ -19,6 +19,11 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            if(this.transform.position.y > 0)
+            {
+                this.transform.position = new Vector2(this.transform.position.x, -2.1f);
+            }
+
             moveHorizontal = Input.GetAxis("Horizontal_Virus");
             moveVertical = Input.GetAxis("Vertical_Virus");
         }
