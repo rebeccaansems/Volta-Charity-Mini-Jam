@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CellController : MonoBehaviour
 {
-
     public bool isCure = true;
+    public Color virusColor;
 
     private float cureTurnedTime = 0.1f, virusTurnedTime = 0.15f, turnTime = 0f;
 
@@ -51,7 +51,7 @@ public class CellController : MonoBehaviour
         }
         else if (convertType == "Virus")
         {
-            this.GetComponent<SpriteRenderer>().color = Color.green;
+            this.GetComponent<SpriteRenderer>().color = virusColor;
             isCure = false;
         }
     }

@@ -7,15 +7,9 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed = 3.0f;
     public bool isCure;
+    
+    private float moveHorizontal, moveVertical;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-    float moveHorizontal, moveVertical;
-
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (isCure)
@@ -28,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
             moveHorizontal = Input.GetAxis("Horizontal_Virus");
             moveVertical = Input.GetAxis("Vertical_Virus");
         }
+
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
         this.GetComponent<Rigidbody2D>().velocity = movement * speed;
     }

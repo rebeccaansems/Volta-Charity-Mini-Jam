@@ -6,16 +6,14 @@ public class CellMovement : MonoBehaviour
 {
     public float initialSpeed = 5;
 
-    private int points = 10;
+    private int points = 15;
     private float speed;
 
-    // Use this for initialization
     void Start()
     {
         speed = initialSpeed;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 move = new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(0.1f, 0.5f), 0);
@@ -32,14 +30,6 @@ public class CellMovement : MonoBehaviour
                 GameStats.virusCells += points;
             }
             Destroy(this.gameObject);
-        }
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Cure" || collision.gameObject.tag == "Virus")
-        {
-            //speed = 0.1f;
         }
     }
 

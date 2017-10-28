@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameStats : MonoBehaviour {
-
+public class GameStats : MonoBehaviour
+{
     public static int curedCells = 0;
     public static int virusCells = 0;
-    public static float overallTimeRemaining = 45f;
+    public static float overallTimeRemaining = 32f;
 
     public CanvasGroup EndGamePanel;
     public Text timeRemainingText, cureScore, virusScore;
@@ -18,7 +18,7 @@ public class GameStats : MonoBehaviour {
         overallTimeRemaining -= Time.deltaTime;
         timeRemainingText.text = ((int)overallTimeRemaining).ToString();
 
-        if(overallTimeRemaining <= 0)
+        if ((int)overallTimeRemaining <= 0)
         {
             cureScore.text = curedCells.ToString();
             virusScore.text = virusCells.ToString();
@@ -33,7 +33,7 @@ public class GameStats : MonoBehaviour {
     {
         curedCells = 0;
         virusCells = 0;
-        overallTimeRemaining = 25f;
+        overallTimeRemaining = 32f;
         Time.timeScale = 1;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
