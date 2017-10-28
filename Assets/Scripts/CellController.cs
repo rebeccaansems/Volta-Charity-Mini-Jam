@@ -5,17 +5,15 @@ using UnityEngine;
 public class CellController : MonoBehaviour
 {
 
-    public int cellType = 0;
+    public bool isCure = true;
 
-    private float turnedTime = 0.5f, turnTime = 0f;
+    private float cureTurnedTime = 0.1f, virusTurnedTime = 0.15f, turnTime = 0f;
 
-    // Use this for initialization
     void Start()
     {
-
+        this.GetComponent<SpriteRenderer>().color = Color.red;
     }
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -23,10 +21,20 @@ public class CellController : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Cure" || collision.gameObject.tag == "Virus")
+        if (collision.gameObject.tag == "Cure" && !isCure)
         {
             turnTime += Time.deltaTime;
-            if (turnTime > turnedTime)
+            if (turnTime > cureTurnedTime)
+            {
+                Convert(collision.gameObject.tag);
+                turnTime = 0f;
+            }
+        }
+
+        if (collision.gameObject.tag == "Virus" && isCure)
+        {
+            turnTime += Time.deltaTime;
+            if (turnTime > virusTurnedTime)
             {
                 Convert(collision.gameObject.tag);
                 turnTime = 0f;
@@ -43,11 +51,13 @@ public class CellController : MonoBehaviour
     {
         if(convertType == "Cure")
         {
-            this.GetComponent<SpriteRenderer>().color = Color.yellow;
+            this.GetComponent<SpriteRenderer>().color = Color.red;
+            isCure = true;
         }
         else if (convertType == "Virus")
         {
             this.GetComponent<SpriteRenderer>().color = Color.green;
+            isCure = false;
         }
     }
 }

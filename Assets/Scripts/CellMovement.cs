@@ -22,6 +22,14 @@ public class CellMovement : MonoBehaviour
 
         if(transform.position.y > 6)
         {
+            if (this.GetComponent<CellController>().isCure)
+            {
+                GameStats.curedCells++;
+            }
+            else
+            {
+                GameStats.virusCells++;
+            }
             Destroy(this.gameObject);
         }
     }
