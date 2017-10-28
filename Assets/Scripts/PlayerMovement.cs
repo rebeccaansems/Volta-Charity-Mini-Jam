@@ -13,19 +13,22 @@ public class PlayerMovement : MonoBehaviour
     {
 
     }
+    float moveHorizontal, moveVertical;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        Vector3 move;
         if (isCure)
         {
-            move = new Vector3(Input.GetAxis("Horizontal_Cure"), Input.GetAxis("Vertical_Cure"), 0);
+            moveHorizontal = Input.GetAxis("Horizontal_Cure");
+            moveVertical = Input.GetAxis("Vertical_Cure");
         }
         else
         {
-            move = new Vector3(Input.GetAxis("Horizontal_Virus"), Input.GetAxis("Vertical_Virus"), 0);
+            moveHorizontal = Input.GetAxis("Horizontal_Virus");
+            moveVertical = Input.GetAxis("Vertical_Virus");
         }
-        transform.position += move * speed * Time.deltaTime;
+        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+        this.GetComponent<Rigidbody2D>().velocity = movement * speed;
     }
 }

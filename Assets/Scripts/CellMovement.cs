@@ -39,7 +39,7 @@ public class CellMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Cure" || collision.gameObject.tag == "Virus")
         {
-            speed = 0;
+            //speed = 0.1f;
         }
     }
 
