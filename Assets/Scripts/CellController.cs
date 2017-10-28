@@ -14,11 +14,6 @@ public class CellController : MonoBehaviour
         this.GetComponent<SpriteRenderer>().color = Color.red;
     }
 
-    void Update()
-    {
-
-    }
-
     void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Cure" && !isCure)

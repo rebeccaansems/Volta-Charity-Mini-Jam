@@ -9,7 +9,7 @@ public class SpawnCells : MonoBehaviour
 
     void Update()
     {
-        if(transform.childCount < 80)
+        if(transform.childCount < 100)
         {
             GameObject newCell = Instantiate(cell, new Vector3(Random.Range(-7f, 7f), Random.Range(-5.5f, -15f), 0), new Quaternion(0,0,0,0));
             newCell.transform.parent = this.transform;

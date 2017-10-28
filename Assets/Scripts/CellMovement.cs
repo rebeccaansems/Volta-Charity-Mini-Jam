@@ -6,6 +6,7 @@ public class CellMovement : MonoBehaviour
 {
     public float initialSpeed = 5;
 
+    private int points = 10;
     private float speed;
 
     // Use this for initialization
@@ -20,7 +21,7 @@ public class CellMovement : MonoBehaviour
         Vector3 move = new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(0.1f, 0.5f), 0);
         transform.position += move * speed * Time.deltaTime;
 
-        if(transform.position.y > 6)
+        if (transform.position.y > 6)
         {
             if (this.GetComponent<CellController>().isCure)
             {
@@ -28,7 +29,7 @@ public class CellMovement : MonoBehaviour
             }
             else
             {
-                GameStats.virusCells++;
+                GameStats.virusCells += points;
             }
             Destroy(this.gameObject);
         }
