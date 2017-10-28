@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class CellMovement : MonoBehaviour
 {
-    public float speed = 5;
+    public float initialSpeed = 5;
+
+    private float speed;
 
     // Use this for initialization
     void Start()
     {
-
+        speed = initialSpeed;
     }
 
     // Update is called once per frame
@@ -17,5 +19,23 @@ public class CellMovement : MonoBehaviour
     {
         Vector3 move = new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(0.1f, 0.5f), 0);
         transform.position += move * speed * Time.deltaTime;
+
+        if(transform.position.y > 6)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Cure" || collision.gameObject.tag == "Virus")
+        {
+            speed = 0;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        speed = initialSpeed;
     }
 }
