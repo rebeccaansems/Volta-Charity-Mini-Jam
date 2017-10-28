@@ -10,7 +10,7 @@ public class GameStats : MonoBehaviour
     public static int virusCells = 0;
     public static float overallTimeRemaining = 32f;
 
-    public CanvasGroup EndGamePanel, TutorialPanel;
+    public CanvasGroup EndGamePanel, TutorialPanel, InGamePanel;
     public Text timeRemainingText, cureScore, virusScore;
 
     void Start()
@@ -23,8 +23,9 @@ public class GameStats : MonoBehaviour
         TutorialPanel.alpha = 1;
         TutorialPanel.blocksRaycasts = true;
 
+        InGamePanel.alpha = 0;
+
         Time.timeScale = 0;
-        timeRemainingText.enabled = false;
     }
 
     void Update()
@@ -42,6 +43,11 @@ public class GameStats : MonoBehaviour
 
             Time.timeScale = 0;
         }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            Application.Quit();
+        }
     }
 
     public void PlayAgain()
@@ -58,6 +64,8 @@ public class GameStats : MonoBehaviour
         TutorialPanel.interactable = false;
         TutorialPanel.alpha = 0;
         TutorialPanel.blocksRaycasts = false;
+
+        InGamePanel.alpha = 1;
 
         Time.timeScale = 1;
     }
