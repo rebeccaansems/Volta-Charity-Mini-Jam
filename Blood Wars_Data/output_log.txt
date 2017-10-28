@@ -1,0 +1,70 @@
+Mono path[0] = 'C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/Managed'
+Mono path[1] = 'C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/Mono'
+Mono config path = 'C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55302
+Broadcasting "[IP] 169.254.177.195 [Port] 55302 [Flags] 2 [Guid] 3224105688 [EditorId] 3267123797 [Version] 1048832 [Id] WindowsPlayer(Rebecca-Laptop) [Debug] 0" to [169.254.255.255:54997]...
+Started listening to [0.0.0.0:55302]
+PlayerConnection already initialized - listening to [0.0.0.0:55302]
+Player data archive not found at `C:/Users/Rebecca Ansems/Documents/GitHub/Volta Charity Mini Jam/Blood Wars_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   Intel
+    VRAM:     1792 MB
+    Driver:   10.18.10.3345
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.031 seconds
+Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Rebecca Ansems\Documents\GitHub\Volta Charity Mini Jam\Blood Wars_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.353078 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.215773 ms
+System memory in use before: 17.0 MB.
+System memory in use after: 17.0 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 325.
+Total: 0.591443 ms (FindLiveObjects: 0.063292 ms CreateObjectMapping: 0.041054 ms MarkObjects: 0.474267 ms  DeleteObjects: 0.008553 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.292647 ms
+System memory in use before: 17.0 MB.
+System memory in use after: 17.0 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 325.
+Total: 0.535849 ms (FindLiveObjects: 0.061154 ms CreateObjectMapping: 0.026942 ms MarkObjects: 0.434495 ms  DeleteObjects: 0.009836 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.038621 ms
+System memory in use before: 17.0 MB.
+System memory in use after: 17.0 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 325.
+Total: 0.686810 ms (FindLiveObjects: 0.083819 ms CreateObjectMapping: 0.053884 ms MarkObjects: 0.528578 ms  DeleteObjects: 0.015395 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.318453 ms
+System memory in use before: 17.0 MB.
+System memory in use after: 17.0 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 325.
+Total: 0.346826 ms (FindLiveObjects: 0.032073 ms CreateObjectMapping: 0.018816 ms MarkObjects: 0.288238 ms  DeleteObjects: 0.005987 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: cec -> priority: 1 
+  Thread -> id: 1df8 -> priority: 1 
+  Thread -> id: 2180 -> priority: 1 
+  Thread -> id: 3334 -> priority: 1 

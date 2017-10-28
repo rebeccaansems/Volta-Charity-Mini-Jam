@@ -7,7 +7,7 @@ public class CellController : MonoBehaviour
     public bool isCure = true;
     public Color virusColor;
 
-    private float cureTurnedTime = 0.1f, virusTurnedTime = 0.15f, turnTime = 0f;
+    private float cureTurnedTime = 0.05f, virusTurnedTime = 0.15f, turnTime = 0f;
 
     void Start()
     {
